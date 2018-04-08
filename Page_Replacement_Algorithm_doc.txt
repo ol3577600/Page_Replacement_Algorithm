@@ -1,0 +1,20 @@
+開發平台: dev c++ 5.11
+使用開發環境: windows 8
+說明你的程式設計
+
+typedef struct save_Frame{
+	int sTime, sBit, sCounter ;
+	string sshift ,  sBit2 ;
+	char sID ;
+} sFrame ; 
+string sshift ,  sBit2 用在 Additional Reference Bits
+sTime 是時間戳記 
+sBit 是用在 Second chance Page
+sCounter 用在 LFU 和 MFU
+
+string which_small(vector<sFrame> v3) 
+這個function 是為了找 Additional Reference Bits 之中 shift最小的
+
+剩餘doc 寫在程式註解中
+
+ 
